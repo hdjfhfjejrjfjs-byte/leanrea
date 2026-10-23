@@ -1,0 +1,9 @@
+{
+  "name": "leanrea",
+  "version": "1.0.0",
+  "description": "Reverse engineer shipped software with plain local CLI tools, no MCP needed.",
+  "author": { "name": "hdjfhfjejrjfjs-byte" },
+  "repository": "https://github.com/hdjfhfjejrjfjs-byte/leanrea",
+  "license": "MIT",
+  "keywords": ["reverse-engineering", "skill", "electron", "binary", "apk"]
+}

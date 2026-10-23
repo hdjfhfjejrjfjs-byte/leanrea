@@ -1,0 +1,14 @@
+{
+  "name": "leanrea",
+  "owner": { "name": "hdjfhfjejrjfjs-byte" },
+  "metadata": { "description": "leanrea: a single-skill reverse engineering plugin for Claude Code." },
+  "plugins": [
+    {
+      "name": "leanrea",
+      "source": "./",
+      "description": "Reverse engineer shipped software with plain local CLI tools, no MCP needed.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

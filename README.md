@@ -47,6 +47,17 @@ Full tables, the context-overhead runs and caveats: [bench/BENCHMARK.md](bench/B
 
 ## Install
 
+### Claude Code plugin marketplace
+
+Inside Claude Code:
+```
+/plugin marketplace add hdjfhfjejrjfjs-byte/leanrea
+/plugin install leanrea@leanrea
+```
+Or from a shell: `claude plugin marketplace add hdjfhfjejrjfjs-byte/leanrea && claude plugin install leanrea@leanrea`.
+
+### skills CLI
+
 ```sh
 npx skills add aicodeking/leanrea
 ```
@@ -66,7 +77,7 @@ Manual install, if you prefer:
 git clone https://github.com/aicodeking/leanrea
 mkdir -p ~/.claude/skills && cp -R leanrea/leanrea ~/.claude/skills/
 ```
-If an agent has no skills support, paste `leanrea/SKILL.md` into its rules or system prompt; it is plain text.
+If an agent has no skills support, paste `skills/leanrea/SKILL.md` into its rules or system prompt; it is plain text.
 
 Use it:
 ```
